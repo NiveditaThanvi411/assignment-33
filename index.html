@@ -14,19 +14,31 @@
         <input type="text" placeholder="Search for restaurant, cuisine or a dish" class="search-bar" />
         <button type="button" class="btn-search">Search</button>
         <button type="button" class="btn">Log in</button>
-        <button type="button" class="btn">Sign up</button>
         <button type="button" class="btn" onclick="openModel()">Sign up</button>
     </div>
 
     <div class="button-container">
-@@ -37,19 +37,22 @@
+        <button type="button" class="order-options">Dining Out</button>
+        <button type="button" class="order-options">Delivery</button>
+        <button type="button" class="order-options">Nightlife</button>
+    </div>
+
+    <div>
+        <p class="text-1">Inspiration for your first order</p>
+        <p class="text-2">Discover the best food & drinks in Nagpur</p>
+    </div>
+
+    <div class="product-container">
+        <img src="./Images/Biryani.png" class="dishes" />
+        <img src="./Images/thali.png" class="dishes" />
+        <img src="./Images/fried-rice.png" class="dishes" />
+        <img src="./Images/dosa-1.png" class="dishes" />
+        <img src="./Images/north.png" class="dishes" />
         <img src="./Images/chole bhature.avif" class="dishes" />
     </div>
 
-    <div class="overlay">
     <div class="overlay" id="overlay">
         <div class="model">
-            <img src="./Images/close.png" class="close-icon"/>
             <p class="signup">Sign up</p>
             <img src="./Images/close.png" class="close-icon" onclick="closeModel()" />
             <form class="form">
@@ -35,14 +47,16 @@
                 <input type="password" placeholder="Enter Password" class="form-input"/>
                 <label class="checkbox">
                     <input type="checkbox"/>
-                    I agree to Zomato's Terms of Service and Privacy <br> 
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Policy 
                     I agree to Zomato's Terms of Service and Privacy <br>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Policy
                 </label>
             </form>
-            <button type="button" class="btn-create-account">Create account</button>
             <button type="button" class="btn-create-account"  onclick="accountCreate()">Create account</button>
             <p class="up">Already have an account? Log in</p>
         </div>
     </div>
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
