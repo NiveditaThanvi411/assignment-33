@@ -9,5 +9,5 @@ function closeModel(){
 }
 
 function accountCreate(){
-    alert("Accout Created Successfully 🎉🎉🎉");
+    alert("Accout Created Successfully");
 }
